@@ -106,7 +106,7 @@ h1 {
   width: 90%;
 }
 
-.todo-row:nth-child(4n + 1) {
+.todo-row:nth-last-child(4n + 1) {
   background: linear-gradient(
     90deg,
     rgba(93, 12, 255, 1) 0%,
@@ -114,7 +114,7 @@ h1 {
   );
 }
 
-.todo-row:nth-child(4n + 2) {
+.todo-row:nth-last-child(4n + 2) {
   background: linear-gradient(
     90deg,
     rgba(255, 12, 241, 1) 0%,
@@ -122,7 +122,7 @@ h1 {
   );
 }
 
-.todo-row:nth-child(4n + 3) {
+.todo-row:nth-last-child(4n + 3) {
   background: linear-gradient(
     90deg,
     rgba(20, 159, 255, 1) 0%,
